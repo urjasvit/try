@@ -10,12 +10,12 @@ t=0
 if add_selectbox == 'Cosine Image Similarilty' :
         st.title("Cosine Similarity Search")
         st.write("-------------------------------------------------------------------------------------------------")
-        df=pd.read_csv('method1.csv')
+        df=pd.read_csv('Method1.csv')
         t=1 
 elif add_selectbox == 'Spotify annoy':
         st.title("Similar Products using Faiss - Facebook AI Similarity Search")
         st.write("-------------------------------------------------------------------------------------------------")
-        df=pd.read_csv('method1.csv')
+        df=pd.read_csv('Method1.csv')
         
 elif add_selectbox == 'FAISS':
     st.title("Similar Products using Faiss - Facebook AI Similarity Search")
